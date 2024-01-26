@@ -1,0 +1,79 @@
+.payment-contact {
+    h1 {
+        font-weight: 900;
+        font-size: 64px;
+        line-height: 90px;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 27px;
+    }
+
+    h1, p {
+        margin: 0;
+    }
+
+    .payment {
+        height: 420px;
+
+        background-color: var(--color-beige-light);
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .chart {
+            width: 670px;
+            height: 270px;
+
+            border-radius: 15px;
+
+            .headers {
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 27px;
+            }
+
+            td, th {
+                border: 2px solid var(--color-black);
+            }
+
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 23px;
+
+            table-layout: fixed;
+            border-collapse: collapse;
+            border-style: hidden;
+            box-shadow: 0 0 0 2px var(--color-black);
+        }
+
+        .text {
+            width: 700px;
+        }
+
+        gap: 50px;
+    }
+
+    .contact {
+        height: 329px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction:column;
+
+        b {
+            color: var(--color-red);
+            text-decoration: underline;
+        }
+
+        p {
+            width: 920px;
+        }
+
+        text-align: center;
+    }
+}

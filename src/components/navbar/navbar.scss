@@ -1,5 +1,5 @@
 .navbar {
-    position: absolute;
+    position: fixed;
     z-index: 5;
 
     top: 0;
@@ -17,8 +17,47 @@
     .navigation-list {
         margin-right: 250px;
         
-        font-weight: 400;
-        font-size: 20px;
+        .container {
+            position: relative;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            font-weight: 400;
+            font-size: 20px;
+            
+            &:hover:not(.active) {
+                .active-bubble {
+                    width: 5px;
+                }
+            }
+
+            .active-bubble {
+                height: 5px;
+                border-radius: 5px;
+
+                background-color: var(--color-beige);
+
+                position: absolute;
+
+                bottom: -8px;
+
+                transition: .2s ease-in-out width;
+            }
+
+            &.active {
+                font-weight: 700;
+
+                .active-bubble {
+                    width: 50px;
+                }
+            }
+
+            width: 95px;
+
+            cursor: pointer;
+        }
 
         display: flex;
         align-items: center;

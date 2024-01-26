@@ -1,6 +1,6 @@
 import "./navbar.scss";
 
-export default function Navbar() {
+export default function Navbar(props) {
     return (<>
         <div className={"navbar"}>
             <div class={"logo-container"}>
@@ -8,10 +8,11 @@ export default function Navbar() {
                 <b>Chrythm</b>
             </div>
             <div class={"navigation-list"}>
-                <p>About Me</p>
-                <p>My Music</p>
-                <p>Payment</p>
-                <p>Contact</p>
+                {
+                    props.labels.map((Name) => {
+                        return <div onClick={() => props.updateActive(Name)} className={"container" + (props.activeNav == Name ? " active" : "")}>{Name}<div className={"active-bubble"}/></div>
+                    })
+                }
             </div>
         </div>
     </>)
