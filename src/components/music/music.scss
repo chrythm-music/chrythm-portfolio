@@ -38,6 +38,8 @@
     align-items: center;
     justify-content: center;
 
+    user-select: none;
+
     @media (max-width: 1094px) {
         flex-direction: column;
         width: 100%;
@@ -134,6 +136,7 @@
 
         .pause-play {
             cursor: pointer;
+            user-select: none;
 
             width: 44px;
             height: 45px;
@@ -169,6 +172,7 @@
         .timing {
             display: flex;
             justify-content: space-between;
+            user-select: none;
 
             p {
                 font-weight: 400;

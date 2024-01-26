@@ -23,7 +23,7 @@ let Songs = {
     Cinematic: [{ Name: "Cinematic 1", Album: "Album 1", "URI": "songs/cinematic/example_cinematicdesert.mp3" }]
 }
 
-export default function Music() {
+export default function Music(props) {
     var SongGenres = Object.keys(Songs);
 
     var [CurrentGenre, SetCurrentGenre] = useState(SongGenres[0]);
@@ -32,7 +32,7 @@ export default function Music() {
 
 
     return (<>
-        <div className={"music"}>
+        <div ref={props.useRef} className={"music"}>
             <h1>My Music</h1>
             <p>These are some example clips from my songs.</p>
             <MusicNavigation genreState={SetCurrentGenre} playEvent={SetCurrentlyPlaying} genres={SongGenres}/>

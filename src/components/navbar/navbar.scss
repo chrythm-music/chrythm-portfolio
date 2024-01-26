@@ -53,8 +53,11 @@
 
             font-weight: 400;
             font-size: 20px;
+
+            user-select: none;
+            transition: .2s ease-in-out color;
             
-            &:hover:not(.active) {
+            &:hover {
                 .active-bubble {
                     width: 5px;
                 }
@@ -70,15 +73,24 @@
 
                 bottom: -8px;
 
-                transition: .2s ease-in-out width;
+                transition: .2s ease-in-out background-color;
             }
 
-            &.active {
-                font-weight: 700;
+            &:active {
+                color: var(--color-red);
 
                 .active-bubble {
-                    width: 50px;
+                    background-color: var(--color-red);
+                    transition: 0s linear background-color;
                 }
+
+                
+                transition: 0s linear color;
+
+                // .active-bubble {
+                //     width: 50px !important;
+                //     transition: 0s ease-in-out width;
+                // }
             }
 
             width: 95px;

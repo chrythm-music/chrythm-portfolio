@@ -1,8 +1,8 @@
 import "./paymentcontact.scss";
 
-export default function PaymentContact() {
+export default function PaymentContact(props) {
     return (<>
-        <div className={"payment-contact"}>
+        <div ref={props.payRef} className={"payment-contact"}>
             <div className={"payment"}>
                 <table class={"chart"}>
                     <tr class={"headers"}>
@@ -31,7 +31,7 @@ export default function PaymentContact() {
                     <p>At this time, I am only doing payment through robux on Roblox. I will be opening up to USD payment in the near future. Robux amount should be calculated according to developer exchange rates.</p>
                 </div>
             </div>
-            <div class={"contact"}>
+            <div ref={props.contactRef} class={"contact"}>
                 <h1>Contact</h1>
                 <p>Send me an email, <b>chrythman@gmail.com</b><br/>After we get in contact via email, I would prefer to use Discord for faster communication. If you just want to stick with email, that’s also fine with me.</p>
             </div>
