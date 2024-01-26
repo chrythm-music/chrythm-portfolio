@@ -16,16 +16,33 @@
     }
 
     .payment {
-        height: 420px;
+        min-height: 420px;
 
         background-color: var(--color-beige-light);
 
         display: flex;
         align-items: center;
         justify-content: center;
+        
+        @media (max-width: 1462px) {
+            padding-left: 25px;
+            padding-right: 25px;
+
+            flex-direction: column;
+
+            .chart {
+                order: 1;
+                margin-bottom: 25px;
+            }
+
+            .text {
+                margin-top: 15px;
+            }
+        }
 
         .chart {
-            width: 670px;
+            width: 100%;
+            max-width: 670px;
             height: 270px;
 
             border-radius: 15px;
@@ -51,7 +68,8 @@
         }
 
         .text {
-            width: 700px;
+            width: 100%;
+            max-width: 700px;
         }
 
         gap: 50px;
@@ -65,13 +83,19 @@
         justify-content: center;
         flex-direction:column;
 
+        @media (max-width: 855px) {
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+
         b {
             color: var(--color-red);
             text-decoration: underline;
         }
 
         p {
-            width: 920px;
+            width: 100%;
+            max-width: 920px;
         }
 
         text-align: center;
