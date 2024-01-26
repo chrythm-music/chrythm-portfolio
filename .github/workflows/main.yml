@@ -27,7 +27,7 @@ jobs:
       run: npm ci
     
     - name: Build project
-      run: PUBLIC_URL=https://chrythm-music.github.io/chrythm-portfolio CI=false npm run build
+      run: PUBLIC_URL=https://chrythm.com CI=false npm run build
 
     - name: Upload production-ready build files
       uses: actions/upload-artifact@v2
