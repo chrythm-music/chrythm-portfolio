@@ -97,6 +97,8 @@
     flex-direction: column;
     gap: 5px;
 
+    filter: drop-shadow(#0000001A 0px 3px 3px);
+
     .info {
         display: flex;
         gap: 10px;
