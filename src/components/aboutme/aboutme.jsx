@@ -8,7 +8,8 @@ export default function AboutMe(props) {
                     <h1>Hi, I'm Chrythm</h1>
                     <h4>I would like to make music for you.</h4>
                 </div>
-                <img src="icon2.png" alt={"Chrythm's Icon, Large"}></img>
+                <img className={"icon"} src="icon2.svg" alt={"Chrythm's Icon, Large"}></img>
+                <img className={"dots"} src="dots.svg"></img>
             </div>
             <div ref={props.useRef} class={"info"}>
                 <div class={"text"}>

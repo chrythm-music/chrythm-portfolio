@@ -71,7 +71,7 @@ export default function MusicCard(props) {
                     // }
 
                     // SetPausedState(AudioRef.current?.paused)
-                }} src={props.play ? "pause.png" : "play.png"}></img>
+                }} src={props.play ? "pause.svg" : "play.svg"}></img>
                 <div className={"text"}>
                     <b>{props.songName}</b>
                     <p>{props.albumName}</p>

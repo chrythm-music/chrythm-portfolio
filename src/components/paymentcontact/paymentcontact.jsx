@@ -11,15 +11,15 @@ export default function PaymentContact(props) {
                     </tr>
                     <tr>
                         <th>&lt;00:30</th>
-                        <th>$20 Robux equivalent</th>
+                        <th><div><img src="robux.svg" alt="Robux Icon"></img>6,000</div></th>
                     </tr>
                     <tr>
                         <th>01:00 - 02:00</th>
-                        <th>$60 Robux equivalent</th>
+                        <th><div><img src="robux.svg" alt="Robux Icon"></img>18,000</div></th>
                     </tr>
                     <tr>
                         <th>02:00 - 03:00</th>
-                        <th>$140 Robux equivalent</th>
+                        <th><div><img src="robux.svg" alt="Robux Icon"></img>40,000</div></th>
                     </tr>
                     <tr>
                         <th>&gt;03:00</th>
@@ -34,6 +34,7 @@ export default function PaymentContact(props) {
             <div ref={props.contactRef} class={"contact"}>
                 <h1>Contact</h1>
                 <p>Send me an email, <b>chrythman@gmail.com</b><br/>After we get in contact via email, I would prefer to use Discord for faster communication. If you just want to stick with email, that’s also fine with me.</p>
+                <img className={"dots"} src="dots.svg"></img>
             </div>
         </div>
     </>)
