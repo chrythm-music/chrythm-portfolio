@@ -27,3 +27,8 @@ a {
     color: var(--color-red);
     text-decoration: none;
 }
+
+::selection {
+    color: var(--color-beige-light);
+    background-color: var(--color-black);
+}
