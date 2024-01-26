@@ -4,7 +4,7 @@ export default function Navbar(props) {
     return (<>
         <div className={"navbar"}>
             <div class={"logo-container"}>
-                <img src="/icon1.png" alt="Chrythm's Icon"></img>
+                <img src="icon1.png" alt="Chrythm's Icon"></img>
                 <b>Chrythm</b>
             </div>
             <div class={"navigation-list"}>
