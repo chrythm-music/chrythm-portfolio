@@ -21,8 +21,8 @@ let Songs = {
     ],
     Surreal: [{ Name: "Rainy Swamp", Album: "Doby's Clay World", "URI": "songs/surreal/example_surrealgrungy.mp3" }],
     Cinematic: [{ Name: "Dangus Desert", Album: "stupid adventure", "URI": "songs/cinematic/example_cinematicdesert.mp3" },
-                { Name: "Battle Beach", Album: "Plush Wars 2", "URI": "songs/edm/example_cinematic2.mp3" },
-                { Name: "Introduction", Album: "The Lighthouse", "URI": "songs/edm/example_cinematic3.mp3" }
+                { Name: "Battle Beach", Album: "Plush Wars 2", "URI": "songs/cinematic/example_cinematic2.mp3" },
+                { Name: "Introduction", Album: "The Lighthouse", "URI": "songs/cinematic/example_cinematic3.mp3" }
     ]
 }
 
