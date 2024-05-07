@@ -7,28 +7,32 @@ export default function PaymentContact(props) {
                 <table class={"chart"}>
                     <tr class={"headers"}>
                         <th>Duration (min)</th>
+                        <th>USD Rate</th>
                         <th>Robux Rate</th>
                     </tr>
                     <tr>
                         <th>&lt;00:30</th>
+                        <th>$21</th>
                         <th><div><img src="robux.svg" alt="Robux Icon"></img>6,000</div></th>
                     </tr>
                     <tr>
                         <th>01:00 - 02:00</th>
+                        <th>$63</th>
                         <th><div><img src="robux.svg" alt="Robux Icon"></img>18,000</div></th>
                     </tr>
                     <tr>
                         <th>02:00 - 03:00</th>
+                        <th>$140</th>
                         <th><div><img src="robux.svg" alt="Robux Icon"></img>40,000</div></th>
                     </tr>
                     <tr>
                         <th>&gt;03:00</th>
-                        <th>Let's negotiate!</th>
+                        <th colSpan={2}>Let's negotiate!</th>
                     </tr>
                 </table>
                 <div class={"text"}>
                     <h1>Payment</h1>
-                    <p>At this time, I am only doing payment through robux on Roblox. I will be opening up to USD payment in the near future. Robux amount should be calculated according to developer exchange rates.</p>
+                    <p>I accept USD and Robux on Roblox. My Robux prices are calculated based on developer exchange rates, so that it can be exchanged for the associated USD amount.</p>
                 </div>
             </div>
             <div ref={props.contactRef} class={"contact"}>
