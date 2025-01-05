@@ -23,7 +23,8 @@ let Songs = {
           { Name: "Alan's Autologistics", Album: "Oaklands", "URI": "songs/edm/example_edm2.mp3" },
           { Name: "Pianoman Watches", Album: "Hexagon Smash", "URI": "songs/edm/example_edm3.mp3" },
           { Name: "Serious Business", Album: "Hexagon Smash", "URI": "songs/edm/example_edm4.mp3" },
-          { Name: "Toy Factory", Album: "Plush Wars 2", "URI": "songs/edm/example_edm5.mp3" }
+          { Name: "Toy Factory", Album: "Plush Wars 2", "URI": "songs/edm/example_edm5.mp3" },
+          { Name: "Robodemon Biz", Album: "Mechanical Misadventures", "URI": "songs/edm/robodemonbiz.mp3" }
     ],
     Surreal: [{ Name: "Rainy Swamp", Album: "Doby's Clay World", "URI": "songs/surreal/example_surrealgrungy.mp3" },
               { Name: "Tattered Desert", Album: "The Legend of The Bone Sword", "URI": "songs/surreal/example_surreal2.mp3" }
