@@ -30,7 +30,13 @@ let Songs = {
     ],
     Surreal: [{ Name: "Rainy Swamp", Album: "Doby's Clay World", "URI": "songs/surreal/example_surrealgrungy.mp3" },
               { Name: "Tattered Desert", Album: "The Legend of The Bone Sword", "URI": "songs/surreal/example_surreal2.mp3" },
-              { Name: "Title Screen", Album: "The Legend of The Bone Sword", "URI": "songs/surreal/title3.mp3" }
+              { Name: "Title Screen", Album: "The Legend of The Bone Sword", "URI": "songs/surreal/title3.mp3" },
+              { Name: "Ghastly Village", Album: "Rarity Miner", "URI": "songs/surreal/scarityminer3.mp3" },
+              { Name: "Normal Cave", Album: "Crystal Collection", "URI": "songs/surreal/pure3.mp3" },
+              { Name: "Harrowing Descent", Album: "Downcave", "URI": "songs/surreal/minining.mp3" },
+              { Name: "Slippery Slope", Album: "Downcave", "URI": "songs/surreal/idez_22.mp3" },
+              { Name: "Spelunking", Album: "Downcave", "URI": "songs/surreal/dry3.mp3" },
+              { Name: "Pitfire", Album: "Game of Solace", "URI": "songs/surreal/drumtest2.mp3" }
     ],
     Cinematic: [{ Name: "Dangus Desert", Album: "stupid adventure", "URI": "songs/cinematic/example_cinematicdesert.mp3" },
                 { Name: "Battle Beach", Album: "Plush Wars 2", "URI": "songs/cinematic/example_cinematic2.mp3" },
