@@ -16,7 +16,13 @@ let Songs = {
     ],
     Piano: [{ Name: "Coral Reef", Album: "stupid adventure", "URI": "songs/piano/example_pianosolo.mp3" },
             { Name: "The Mall", Album: "stupid adventure", "URI": "songs/piano/example_pianosong.mp3" },
-            { Name: "Rising Saplings", Album: "Oaklands", "URI": "songs/piano/example_piano2.mp3" }
+            { Name: "Rising Saplings", Album: "Oaklands", "URI": "songs/piano/example_piano2.mp3" },
+            { Name: "Rainy Gray", Album: "Cosmic Reach Fan Song", "URI": "songs/piano/rainygrayLOUD.mp3" },
+            { Name: "Desolate Dreams", Album: "Cosmic Reach Fan Song", "URI": "songs/piano/desolatedreamsLOUD.mp3" },
+            { Name: "Sunny Estates", Album: "Crazy Cars", "URI": "songs/piano/crazyasacar3.mp3" },
+            { Name: "Surface", Album: "Massacre Miners 2", "URI": "songs/piano/city4.mp3" },
+            { Name: "Permafrost", Album: "Massacre Miners 2", "URI": "songs/piano/deal2.mp3" },
+            { Name: "Stone", Album: "Massacre Miners 2", "URI": "songs/piano/mininininininininininingCut.mp3" }
     ],
     EDM: [{ Name: "Winds of Fjords (Cover)", Album: "Minomus", "URI": "songs/edm/example_edmcover.mp3" },
           { Name: "the_floaters.mp3", Album: "Single", "URI": "songs/edm/example_edmoriginal.mp3" },
