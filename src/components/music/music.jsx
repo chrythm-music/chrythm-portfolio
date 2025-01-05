@@ -10,7 +10,9 @@ let Songs = {
             { Name: "Castle", Album: "Plush Wars 2", "URI": "songs/games/example_gamesoundtrack4.mp3" },
             { Name: "Candy Desert", Album: "Plush Wars 2", "URI": "songs/games/example_gamesoundtrack5.mp3" },
             { Name: "Oak's Desert", Album: "Oaklands", "URI": "songs/games/example_gamesoundtrack6.mp3" },
-            { Name: "Funky Forest", Album: "Plush Wars 2", "URI": "songs/games/example_gamesoundtrack7.mp3" }
+            { Name: "Funky Forest", Album: "Plush Wars 2", "URI": "songs/games/example_gamesoundtrack7.mp3" },
+            { Name: "Dirt Dance", Album: "Plush Wars 2", "URI": "songs/games/example_dirtdancenew4.mp3" },
+            { Name: "Main Theme", Album: "Plush Wars 2", "URI": "songs/games/example_pw2.mp3" }
     ],
     Piano: [{ Name: "Coral Reef", Album: "stupid adventure", "URI": "songs/piano/example_pianosolo.mp3" },
             { Name: "The Mall", Album: "stupid adventure", "URI": "songs/piano/example_pianosong.mp3" },
