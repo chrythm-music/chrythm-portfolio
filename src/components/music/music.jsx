@@ -42,7 +42,11 @@ let Songs = {
                 { Name: "Battle Beach", Album: "Plush Wars 2", "URI": "songs/cinematic/example_cinematic2.mp3" },
                 { Name: "Introduction", Album: "The Lighthouse", "URI": "songs/cinematic/example_cinematic3.mp3" },
                 { Name: "Lay of the Land", Album: "Oaklands", "URI": "songs/cinematic/example_cinematic4.mp3" },
-                { Name: "9 Mile Mountain", Album: "Single", "URI": "songs/cinematic/9milemountain.mp3" }
+                { Name: "9 Mile Mountain", Album: "Single", "URI": "songs/cinematic/9milemountain.mp3" },
+                { Name: "Construction", Album: "Cosmic Reach", "URI": "songs/cinematic/seismicLOUD.mp3" },
+                { Name: "Navigation", Album: "Cosmic Reach", "URI": "songs/cinematic/cosmosLOUD.mp3" },
+                { Name: "Cozy Settlement", Album: "Cosmic Reach", "URI": "songs/cinematic/cosmicLOUD.mp3" },
+                { Name: "Hub 1 Woodlands", Album: "Crystal Collection", "URI": "songs/cinematic/hubLOUD.mp3" }
     ]
 }
 
