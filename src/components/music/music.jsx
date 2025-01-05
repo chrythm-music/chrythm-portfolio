@@ -32,7 +32,8 @@ let Songs = {
     Cinematic: [{ Name: "Dangus Desert", Album: "stupid adventure", "URI": "songs/cinematic/example_cinematicdesert.mp3" },
                 { Name: "Battle Beach", Album: "Plush Wars 2", "URI": "songs/cinematic/example_cinematic2.mp3" },
                 { Name: "Introduction", Album: "The Lighthouse", "URI": "songs/cinematic/example_cinematic3.mp3" },
-                { Name: "Lay of the Land", Album: "Oaklands", "URI": "songs/cinematic/example_cinematic4.mp3" }
+                { Name: "Lay of the Land", Album: "Oaklands", "URI": "songs/cinematic/example_cinematic4.mp3" },
+                { Name: "9 Mile Mountain", Album: "Single", "URI": "songs/cinematic/9milemountain.mp3" }
     ]
 }
 
